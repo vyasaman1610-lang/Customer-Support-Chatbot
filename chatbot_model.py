@@ -8,7 +8,7 @@ from nltk.stem import WordNetLemmatizer
 from textblob import TextBlob
 
 # Load dataset
-df = pd.read_csv("/home/aman/Desktop/Project/Customer Support ChatBot/Mental_Health_FAQ.csv")
+df = pd.read_csv("Mental_Health_FAQ.csv")
 
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
