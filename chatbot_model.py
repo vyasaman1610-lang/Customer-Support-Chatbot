@@ -10,7 +10,7 @@ from nltk.stem import WordNetLemmatizer
 from textblob import TextBlob
 
 def setup_nltk():
-    packages = ['stopwords', 'punkt', 'wordnet', 'omw-1.4']
+    packages = ['stopwords', 'punkt', 'punkt_tab', 'wordnet', 'omw-1.4']
     for pkg in packages:
         try:
             nltk.data.find(pkg)
